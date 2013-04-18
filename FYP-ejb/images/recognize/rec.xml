@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<faces>
+  <face id="1">
+    <imageId>1</imageId>
+    <firstname>katl</firstname>
+    <lastname>
+    </lastname>
+    <path>F:/FYP/FYP-ejb/images/recognize/1.jpg</path>
+  </face>
+  <face id="2">
+    <imageId>2</imageId>
+    <firstname>gamage</firstname>
+    <lastname>
+    </lastname>
+    <path>F:/FYP/FYP-ejb/images/recognize/2.jpg</path>
+  </face>
+</faces>
