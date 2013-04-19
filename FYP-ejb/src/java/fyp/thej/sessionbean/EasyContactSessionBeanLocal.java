@@ -42,5 +42,7 @@ public interface EasyContactSessionBeanLocal {
 
     User isFbUserExists(int fbId);
 
+    String recognizeFaces(String faces);
+
     
 }

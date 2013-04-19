@@ -14,4 +14,11 @@
     </lastname>
     <path>F:/FYP/FYP-ejb/images/recognize/2.jpg</path>
   </face>
+  <face id="2">
+    <imageId>3</imageId>
+    <firstname>katl</firstname>
+    <lastname>
+    </lastname>
+    <path>F:/FYP/FYP-ejb/images/recognize/t.jpg</path>
+  </face>
 </faces>

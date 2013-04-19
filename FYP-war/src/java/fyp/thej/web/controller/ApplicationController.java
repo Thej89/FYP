@@ -187,6 +187,11 @@ public class ApplicationController {
         easyContactSessionBean.getImagesFromAndroid(backupStr, userDetails, userFbDetails);
         return null;
     }
+    
+    @RequestMapping("/recognizeFaces.htm")
+     public String recognizeFaces(String faces) {
+        return null;
+    }
     private EasyContactSessionBeanLocal lookupEasyContactSessionBeanLocal() {
         try {
             Context c = new InitialContext();

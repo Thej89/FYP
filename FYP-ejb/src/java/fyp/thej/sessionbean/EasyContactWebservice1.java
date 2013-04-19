@@ -67,4 +67,14 @@ public class EasyContactWebservice1 {
         System.out.println("test");
         return ejbRef.backupContacts(xmlString, username);
     }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "recognizeFaces")
+    public String recognizeFaces(@WebParam(name = "faces") String faces) {
+        return ejbRef.recognizeFaces(faces);
+    }
+    
+    
 }

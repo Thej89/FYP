@@ -501,4 +501,12 @@ public class EasyContactSessionBean implements EasyContactSessionBeanLocal {
         }
         return null;
     }
+
+    @Override
+    public String recognizeFaces(String faces) {
+        boolean result = convertStringtoImage(faces, "F:/FYP/FYP-ejb/images/recognize/t.jpg", "F:/FYP/FYP-ejb/images/recognize");
+        if(result == true){
+        return "success";
+        } else return "error";
+    }
 }
